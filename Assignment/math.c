@@ -8,7 +8,7 @@ int main() {
     int num1 =8;
     int num2 =4;
     char operator = '/';
-    printf("%d", math(num1, num2, operator));
+    printf("%d", math(num1, num2, operator)); //call the math method 
 
     return 0;
 }
@@ -16,27 +16,27 @@ int main() {
 int math(int a, int b, char operator)
 {
     int ans;
-    if (operator =='+'){
+    if (operator =='+'){ //add operation
         ans = a + b;
-    } else if (operator == '-') {
+    } else if (operator == '-') { //subtraction operation
         ans = a - b;
-    } else if (operator == '*') {
+    } else if (operator == '*') { //multiplication operation
         ans = a * b;
-    } else if (operator == '/') {
+    } else if (operator == '/') { //division operation
         ans = a / b;
-    } else if (operator == '%') {
+    } else if (operator == '%') { //modulus operation
         ans = a % b;
-    } else if (operator == '<') {
+    } else if (operator == '<') { //shift left operation
         ans = a << b;
-    } else if (operator == '>') {
+    } else if (operator == '>') { //shift right operation
         ans = a >> b;
-    } else if (operator == '&') {
+    } else if (operator == '&') { //and operation
         ans = a & b;
-    } else if (operator == '|') {
+    } else if (operator == '|') { //or operation
         ans = a | b;
-    } else if (operator == '^') {
+    } else if (operator == '^') { //xor operation
         ans = a ^ b;
-    } else if (operator == '~') {
+    } else if (operator == '~') { //negation operation
         ans = ~a;
     }
     return ans;
