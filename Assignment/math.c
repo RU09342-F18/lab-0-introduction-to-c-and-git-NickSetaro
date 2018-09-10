@@ -1,3 +1,7 @@
+/*
+    @author Nick Setaro
+    @version 9.1.18
+*/
 #include <stdio.h>
 #include <math.h>
 
